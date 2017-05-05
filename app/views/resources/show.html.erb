@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @resource.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @resource.url %>
+</p>
+
+<p>
+  <strong>Thumbnail image:</strong>
+  <%= @resource.thumbnail_image %>
+</p>
+
+<p>
+  <strong>Media type:</strong>
+  <%= @resource.media_type_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @resource.category_id %>
+</p>
+
+<%= link_to 'Edit', edit_resource_path(@resource) %> |
+<%= link_to 'Back', resources_path %>
